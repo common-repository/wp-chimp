@@ -1,0 +1,434 @@
+@-webkit-keyframes fade-in-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@-moz-keyframes fade-in-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+#wp-chimp-thanks {
+  font-style: italic;
+}
+
+.wp-chimp-settings .nav-tab-wrapper {
+  padding-top: 1em;
+  margin-bottom: 2em;
+}
+
+.wp-chimp-settings .page-title-action:disabled,
+.wp-chimp-settings .page-title-action[disabled] {
+  color: #b5bcc2;
+  border-color: #d7dade;
+  background: #f3f4f5;
+  text-shadow: 0 1px 0 #fff;
+  cursor: default;
+}
+
+.wp-chimp-section__description {
+  margin: 0.6em 0 0;
+}
+
+.wp-chimp-section__header {
+  margin: 1.2em 0 2em;
+}
+
+.wp-chimp-section__title {
+  margin: 0 0 0.6em;
+}
+
+.wp-heading-inline {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.wp-chimp-table {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border-collapse: collapse;
+}
+
+.wp-chimp-table thead {
+  width: 100%;
+}
+
+.wp-chimp-table td {
+  vertical-align: middle;
+}
+
+.wp-chimp-table__tr--odd {
+  background-color: #fbfbfc;
+}
+
+.wp-chimp-input--readonly[readonly] {
+  color: #8f98a1;
+  font-size: 14px;
+  padding: 4px 8px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: 2px solid #e2e4e7;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-color: #fff;
+}
+
+.wp-chimp-icon-bool {
+  background: #fff;
+  padding: 2px 4px;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #e2e4e7;
+  border: 2px solid #e2e4e7;
+}
+
+.wp-chimp-icon-bool--yes {
+  color: #fff;
+  background: #6c7782;
+  border: 2px solid #6c7782;
+}
+
+.wp-chimp-button .dashicons,
+.wp-chimp-button .dashicons::before,
+.wp-chimp-button-icon .dashicons,
+.wp-chimp-button-icon .dashicons::before {
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+}
+
+.wp-chimp-button .dashicons,
+.wp-chimp-button-icon .dashicons {
+  position: relative;
+  top: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.wp-chimp-button-icon .dashicons {
+  margin-left: 0;
+}
+
+.wp-chimp-button-group {
+  width: 90%;
+}
+
+.wp-chimp-button-group .components-button {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-align: center;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+}
+
+.wp-chimp-button-group .components-button svg {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wp-chimp-button-group.has-third-button {
+  width: 100%;
+}
+
+.wp-chimp-button-group.has-third-button .components-button {
+  width: 33.33333%;
+  padding: 0 8px;
+}
+
+.wp-chimp-spinner.spinner {
+  visibility: visible;
+  float: none;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  margin-left: 0;
+}
+
+.wp-chimp-table-td-placeholder__bar {
+  height: 10px;
+  display: block;
+  width: 100%;
+  margin: 2px 0;
+  background-color: #e2e4e7;
+  -webkit-animation: fade-in-out 0.5s ease-out infinite;
+  -moz-animation: fade-in-out 0.5s ease-out infinite;
+  animation: fade-in-out 0.5s ease-out infinite;
+}
+
+.wp-chimp-table-td-placeholder .index-0 {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.wp-chimp-table-td-placeholder .index-1 {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.wp-chimp-table-td-placeholder .index-2 {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.wp-chimp-table-td-placeholder .index-3 {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.wp-chimp-table-td-placeholder .index-4 {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.wp-chimp-table-td-placeholder .index-5 {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.wp-chimp-table-td-placeholder .index-6 {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.wp-chimp-table-td-placeholder .index-7 {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.wp-chimp-table-td-placeholder .index-8 {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.wp-chimp-table-td-placeholder .index-9 {
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+
+.wp-chimp-table-td-placeholder .index-10 {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.wp-editor {
+  margin: 0;
+  padding: 0 3em 1em 1em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.wp-editor p {
+  font-family: inherit;
+  font-size: 1em;
+}
+
+.wp-chimp-modal {
+  width: 80%;
+  height: 80%;
+  max-width: 1200px;
+  -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.wp-chimp-modal *,
+.wp-chimp-modal *::before,
+.wp-chimp-modal *::after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wp-chimp-modal__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1em 10px;
+  width: 100%;
+  display: -moz-box;
+  display: flex;
+  background: #fbfbfc;
+  border-top: 1px solid #d7dade;
+  -moz-box-pack: end;
+  justify-content: flex-end;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wp-chimp-modal__footer button {
+  margin-left: 4px;
+}
+
+.wp-chimp-modal__content {
+  display: -moz-box;
+  display: flex;
+  -moz-box-flex: 1;
+  flex: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.wp-chimp-modal .components-modal__header-heading {
+  font-weight: 600;
+}
+
+.wp-chimp-modal-overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.wp-chimp-modal-main,
+.wp-chimp-modal-sidebar {
+  height: 100%;
+  overflow: auto;
+}
+
+.wp-chimp-modal-main {
+  width: 68%;
+}
+
+.wp-chimp-modal-notice {
+  margin: 0;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+}
+
+.wp-chimp-modal-notice.is-dismissible {
+  padding: 8px 12px;
+}
+
+.wp-chimp-modal-notice .components-notice__content {
+  padding: 8px 0;
+  margin: 0 25px 0 0;
+  -moz-box-flex: 1;
+  flex: 1 1 auto;
+}
+
+.wp-chimp-modal-notice .components-notice__dismiss {
+  position: relative;
+  -moz-box-flex: 0;
+  flex: 0 0 36px;
+}
+
+.wp-chimp-modal-sidebar {
+  width: 32%;
+  background-color: #f3f4f5;
+  border-left: 1px solid #d7dade;
+  position: relative;
+  padding: 2em;
+}
+
+.wp-chimp-subscription-form-tool .components-base-control {
+  width: 100%;
+}
+
+.wp-chimp-subscription-form-tool .components-base-control__label, .wp-chimp-subscription-form-tool .components-base-control__help {
+  color: #6c7782;
+}
+
+.wp-chimp-subscription-form-tool .components-base-control__label {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.wp-chimp-subscription-form-tool .components-base-control__help {
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+
+.wp-chimp-subscription-form-tool .components-base-control__field {
+  margin-bottom: 1em;
+}
+
+.wp-chimp-subscription-form-tool .components-textarea-control__input {
+  display: block;
+}
+
+.wp-chimp-subscription-form-tool .mce-tinymce {
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+
+.wp-chimp-subscription-form-tool .mce-top-part::before {
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+.wp-chimp-subscription-form-tool .mce-btn.mce-active i,
+.wp-chimp-subscription-form-tool .mce-btn.mce-active:hover i,
+.wp-chimp-subscription-form-tool .mce-btn.mce-active:active i {
+  color: #23282d;
+}
+
+.wp-chimp-subscription-form-tool .wp-chimp-subscription-form-control,
+.wp-chimp-subscription-form-tool .wp-chimp-subscription-form-control + .wp-chimp-subscription-form-control {
+  margin-bottom: 1.28em;
+}
+
+.wp-chimp-subscription-form-tool .wp-chimp-subscription-form-control:last-child {
+  margin-bottom: 0;
+}
+
+.wp-chimp-subscription-form-tool__panel-row .components-base-control .components-base-control__field {
+  margin-bottom: 1em;
+}
+
+.widget-content .wp-chimp-list-select {
+  padding: 10px;
+  background: #f3f4f5;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+}
+
+.widget-content .wp-chimp-list-select label {
+  display: -moz-box;
+  display: flex;
+  margin-right: 10px;
+}
+
+.widget-content .wp-chimp-list-select svg {
+  fill: #6c7782;
+}

@@ -1,0 +1,268 @@
+#wp-chimp-table-lists .th-list-id,
+#wp-chimp-table-lists .th-subscribers,
+#wp-chimp-table-lists .th-double-optin {
+  width: 100px;
+}
+
+#wp-chimp-table-lists .th-actions {
+  width: 100px;
+}
+
+#wp-chimp-table-lists .td-double-optin {
+  text-align: center;
+}
+
+#wp-chimp-table-lists .td-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#wp-chimp-table-lists .td-name h3 {
+  margin: 0;
+  color: #555d66;
+}
+
+#wp-chimp-table-lists .td-name h3 .has-stats {
+  color: #0073aa;
+  cursor: pointer;
+}
+
+#wp-chimp-table-lists .td-name h3 .has-stats:hover {
+  color: #00b9eb;
+}
+
+#wp-chimp-table-lists .td-name .row-gdpr {
+  font-size: 0.6em;
+  padding: 3px 9px;
+  background: #6c7782;
+  color: #fff;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  margin-left: 0.6em;
+}
+
+#wp-chimp-table-lists .td-detail {
+  padding: 0;
+}
+
+#wp-chimp-table-pagination button,
+#wp-chimp-table-pagination span {
+  margin: 0 4px;
+}
+
+.wp-chimp-mailchimp-api-status-light {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 1px;
+  margin-right: 6px;
+  background: #6c7782;
+  display: inline-block;
+}
+
+.wp-chimp-mailchimp-api-status-light--connected {
+  background: #46b450;
+}
+
+.wp-chimp-list-detail-footer {
+  padding: 1em 2em;
+  display: -moz-box;
+  display: flex;
+}
+
+.wp-chimp-list-detail-footer__item {
+  flex-basis: 0;
+  -moz-box-flex: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.wp-chimp-list-detail-shortcode {
+  color: #6c7782;
+  text-align: right;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: end;
+  justify-content: flex-end;
+}
+
+.wp-chimp-list-detail-shortcode .wp-chimp-input--readonly {
+  margin-left: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.wp-chimp-list-detail-tabs {
+  padding: 1em 2em 2em;
+}
+
+.wp-chimp-list-detail-tabs__menu {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid #e2e4e7;
+}
+
+.wp-chimp-list-detail-tabs__menu-item {
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 0.4em 2em;
+  border: 1px solid #e2e4e7;
+  display: inline-block;
+  margin: 0 4px;
+  background-color: #fbfbfc;
+  position: relative;
+  top: 1px;
+  color: #555;
+  cursor: pointer;
+}
+
+.wp-chimp-list-detail-tabs__menu-item:hover {
+  background-color: #fff;
+}
+
+.wp-chimp-list-detail-tabs__menu-item:first-child {
+  margin-left: 8px;
+}
+
+.wp-chimp-list-detail-tabs__menu-item.active {
+  background: transparent;
+  border-bottom-color: #fff;
+  cursor: default;
+}
+
+.wp-chimp-table__tr--odd .wp-chimp-list-detail-tabs__menu-item.active {
+  border-bottom-color: #fbfbfc;
+}
+
+.wp-chimp-list-detail-tabs__content {
+  margin: 2em 0 0;
+  padding: 2em;
+}
+
+.stats-section {
+  display: -moz-box;
+  display: flex;
+  margin-bottom: 4em;
+}
+
+.stats-section:last-child {
+  margin-bottom: 0;
+}
+
+.stats-heading {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.stats-section-overview {
+  text-align: center;
+  padding: 0 1em;
+}
+
+.stats-section-overview__item {
+  width: 33.33333%;
+  padding: 2.2em 2em;
+  border: 1px solid #e2e4e7;
+}
+
+.stats-section-overview__item:nth-child(n+2) {
+  border-left-width: 0;
+}
+
+.stats-section-overview__item:first-child {
+  -moz-border-radius-topleft: 6px;
+  border-top-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.stats-section-overview__item:last-child {
+  -moz-border-radius-topright: 6px;
+  border-top-right-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.stats-section-overview .stats-count {
+  font-size: 2.4em;
+  margin-bottom: 0.5em;
+}
+
+.stats-section-overview .stats-label {
+  font-size: 1.2em;
+  color: #6c7782;
+}
+
+.stats-section-list-performance {
+  display: -moz-box;
+  display: flex;
+}
+
+.stats-section-list-performance h5 {
+  margin: 0;
+}
+
+.stats-section-list-performance__item {
+  width: 50%;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+}
+
+.stats-section-list-performance__item-data {
+  display: -moz-box;
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  font-size: 1.2em;
+}
+
+.stats-section-list-performance .stats-meter {
+  height: 0.6em;
+  width: 100%;
+  background-color: #e2e4e7;
+  margin-top: 1em;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.stats-section-list-performance .stats-meter__bar {
+  height: 100%;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #6c7782;
+  max-width: 100% !important;
+}
+
+.wp-chimp-subscription-form-tool__preview {
+  position: relative;
+  max-width: 640px;
+  margin: 3em auto 0;
+  display: -moz-box;
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  background-color: #fbfbfc;
+  -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+}
+
+.wp-chimp-subscription-form-tool__preview .wp-chimp-subscription-form {
+  margin: 0;
+  width: 100%;
+}
+
+.wp-chimp-subscription-form-tool__panel-row {
+  padding-top: 1em;
+  display: -moz-box;
+  display: flex;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+}
+
+.wp-chimp-subscription-form-control:last-child {
+  padding-bottom: 0;
+}
